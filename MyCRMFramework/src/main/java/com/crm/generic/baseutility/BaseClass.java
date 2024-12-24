@@ -24,8 +24,8 @@ public class BaseClass {
 	
 	public FileUtility fLib = new FileUtility();
 	public ExcelUtility eLib = new ExcelUtility();
-	public JavaUtility jLib = new JavaUtility();
 	public WebDriverUtility wLib = new WebDriverUtility();
+	public JavaUtility jLib = new JavaUtility();
 	
 	@BeforeClass(groups = {"smoke", "regression"})
 	public void configBeforeClass() throws IOException {
